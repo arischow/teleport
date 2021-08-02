@@ -32,11 +32,12 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/gogo/protobuf/proto"
 	"github.com/gravitational/teleport"
 	"github.com/gravitational/teleport/api/types"
 	"github.com/gravitational/teleport/lib/asciitable"
 	"github.com/gravitational/teleport/lib/auth"
+	
+	"github.com/gogo/protobuf/proto"	
 	"github.com/gravitational/trace"
 )
 
